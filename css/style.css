@@ -1,6 +1,12 @@
-.premier{
-
+.parent{
+    display: flex;
 }
-.deuxieme{
-
+.enfant{
+    background-color: green;
+    height:100px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
 }
